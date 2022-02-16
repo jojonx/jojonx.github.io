@@ -6,7 +6,7 @@ title = "Site title"
 theme = "Hugo-Octopress"
 
 # Needed so we can serve the example website without extra switches
-themesDir = "/themes/"
+
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
