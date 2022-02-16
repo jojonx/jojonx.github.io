@@ -1,8 +1,9 @@
 
+
 baseurl = "https://jojonx.github.io"
 disablePathToLower = false
 languageCode = "en-us"
-title = "Site title"
+title = "TekNoJon"
 theme = "Hugo-Octopress"
 
 # Needed so we can serve the example website without extra switches
@@ -26,26 +27,20 @@ post = "/:title/" # change the post URL to look like the old ones
   sidebarRecentLimit = 5
 
   # Sidebar header - passed to markdownify so you can write markdown here
-  sidebarHeader = "Sidebar Header"
+  sidebarHeader = ""
 
   # Sidebar text also supports markdown
   # New lines can be added with two spaces at the end of line. New paragraphs can be added with two an empty line.
   # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
-  sidebarText = """Here's a [link to example.net](https://www.example.net)
-
-  New paragraph
-
-  Another paragraph which has two spaces in the end to create a new line using markdown  
-  New line but not a new paragraph
-  """
+  sidebarText = ""
   # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
-  sidebarMenuEnabled = true
+  sidebarMenuEnabled = false
   sidebarMenuHeader = "Sidebar Links"
 
   # sidebar links
-  github = "https://github.com/parsiya/Hugo-Octopress"
-  bitbucket = "https://bitbucket.org/parsiya/"
-  twitter = "https://twitter.com/cryptogangsta/"
+  github = "https://forum.xda-developers.com/m/aroem14.12001397/about"
+  bitbucket = "https://dev.to/jojonx"
+  twitter = "https://twitter.com/AroemJ"
 
   # --- End sidebar options ---
 
@@ -57,17 +52,17 @@ post = "/:title/" # change the post URL to look like the old ones
   truncate = true
 
   # Author's name (appears in meta tags and under posts)
-  author = "Author"
+  author = "Admin"
 
   # This text appears in the site header under website title
-  subtitle = "Subtitle appears under the website title"
+  subtitle = "Blog Tekno"
 
   # Search engine URL
   searchEngineURL = "https://www.google.com/search"
 
   # Text of the "Continue Reading" label. Supports markdown and inline HTML.
   # For example, &rarr; == right arrow.
-  continueReadingText = "Would you like to know more? &rarr;"
+  continueReadingText = "Baca Selanjutnya"
 
   # Switch to true to enable RSS icon link
   rss = true
@@ -77,7 +72,7 @@ post = "/:title/" # change the post URL to look like the old ones
   textrss = false
 
   # Website's default description
-  description = ""
+  description = "Blog Tutorial Android, MacOs & Windows"
 
   # 404.html header and text - both support markdown
   notFoundHeader = "There's nothing here"
@@ -98,13 +93,13 @@ post = "/:title/" # change the post URL to look like the old ones
 # If navigationNewWindow (under [params]) is set to true then all links except root ("/") will open in a new window
 # If it does not exist or is set to false then links will open in the same window
 [[menu.main]]
-  Name = "example.net"
-  URL = "https://www.example.net/"
+  Name = "PC"
+  URL = ""
   weight = -5
 
 [[menu.main]]
-  Name = "This theme on Github"
-  URL = "https://www.github.com/parsiya/hugo-octopress"
+  Name = "Smartphone"
+  URL = ""
 
 
 # Sidebar menus
