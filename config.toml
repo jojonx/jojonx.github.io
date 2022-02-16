@@ -3,7 +3,7 @@ baseurl = "https://jojonx.github.io"
 disablePathToLower = false
 languageCode = "en-us"
 title = "Site title"
-theme = "hugo-octopress"
+theme = "Hugo-Octopress"
 
 # Needed so we can serve the example website without extra switches
 themesDir = "/themes/"
